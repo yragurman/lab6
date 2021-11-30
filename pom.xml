@@ -94,7 +94,18 @@
         </dependency>
 
     </dependencies>
-
+    <repositories>
+        <repository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </pluginRepository>
+    </pluginRepositories>
     <properties>
         <java.version>11</java.version>
         <maven.compiler.source>1.6</maven.compiler.source>
